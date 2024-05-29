@@ -7,7 +7,7 @@ installed. It has 10 pre-installed honeypot software packges. But in this projec
 we will focus on using Kippo SSH honeypot to lure hackers and capture their signatures.
 
 In this project, we will use Kali Linux as an Attacker and HoneyDrive as a victim. In Kali 
-Linux,`**_Nmap_**` and `**_Medusa_**`(a brute-force tool) will be used.
+Linux **_Nmap_** and **_Medusa_**(a brute-force tool) will be used.
 
 
 
