@@ -1,9 +1,6 @@
 # SSH_HoneyDrive
 
-****************
-
 ## Description
-****************
 This project help you have an overview how a honeypot working. We will use HoneyDrive 
 which is a honeypot Linux Distro. It's a vitual appliance (OVA) with Xubuntu Desktop
 installed. It has 10 pre-installed honeypot software packges. But in this project 
