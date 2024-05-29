@@ -1,5 +1,5 @@
 # SSH_HoneyDrive :honeybee:
-How to use Kippo SSH honeypot and an analyze a brute-fore attack.
+How to use Kippo SSH honeypot and analyze a brute-fore attack.
 ## Description
 This project help you have an overview how a honeypot works. We will use HoneyDrive 
 which is a honeypot Linux Distro. It's a vitual appliance (OVA) with Xubuntu Desktop
