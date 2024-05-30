@@ -40,13 +40,13 @@ Wait for a moment and the kippo will be activated. :hourglass:
 
 **Step 5**: Check the IP address. 
 Using commnad: `ifconfig` or `ip add` 
-![HoneyDriveIP](/home/clayzzz/Desktop/SSH_HoneyDrive/Pic/HoneyDriveIP.png)
+![HoneyDriveIP](Pic/HoneyDriveIP.png)
 
 **Step 6**: Go to the __Kippo_Graph__ website.
 Go to your browser in your real machine and enter the link below: 
-```
+```python
 HoneyDriveIPaddress/kippo-graph/
-// In this case the Ip is 192.18.16.129
+#In this case the Ip is 192.18.16.129
 ```
 
 
