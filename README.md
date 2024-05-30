@@ -27,8 +27,16 @@ technique or signature. All these informations can be used to strengthen the sec
 
 **Step 2**: Use virtual machine application such as VMware or Virtual Box to create a new machine.
 
-**Step 3**: Turn on the HoneyDrive
+**Step 3**: Turn on the HoneyDrive.
 ![HoneyDriveDesktop](Pic/HoneyDriveDesktop.png)
+
+**Step 4**: Start __kippo_ssh__. 
+Open termianl end the command below: 
+```
+/honeydrive/kippo/start.sh
+```
+Wait for a moment and the kippo will be activated. :hourglass:
+![KippoStart](Pic/StartKippo.png) 
 
 
 
