@@ -1,5 +1,5 @@
 # SSH_HoneyDrive :honeybee:
-How to use Kippo SSH honeypot and analyze a brute-fore attack.
+How to use Kippo SSH honeypot to analyze a brute-fore attack.
 ## Description :page_with_curl:
 This project help you have an overview how a honeypot works. We will use HoneyDrive 
 which is a honeypot Linux Distro. It's a virtual appliance (OVA) with Xubuntu Desktop
@@ -17,10 +17,18 @@ the attacker away from the real assets.
 
 ## How do Honeypots work? :open_file_folder:
 Honeypots are often designed to have vulnerabilites which often are decoy data. When the attackers break in
-to the honeypots, the security team can observe how the hackers launched the attacks, take note their 
+to the honeypots, the security team can observe how the hackers launched the attacks and take note their 
 technique or signature. All these informations can be used to strengthen the security of real systems.  
 
 ## Installation :gear:
+
+- 1, Install HoneyDrive: 
+**Step 1**: Download the OVA file from [bruteforce.gr](https://sourceforge.net/projects/honeydrive/) 
+
+**Step 2**: Use virtual machine application such as VMware or Virtual Box to create a new machine.
+
+**Step 3**: Turn on the HoneyDrive
+![HoneyDriveDesktop](Pic/HoneyDriveDesktop.png)
 
 
 
