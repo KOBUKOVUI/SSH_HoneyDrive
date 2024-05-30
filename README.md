@@ -140,7 +140,8 @@ cat /etc/passwd
 4. Get out as a ghost  
 This part decides you're an elite hacker or just a noob, but in order to make the demostration more clearly, we will cross this part.
 
-### Analyze the attack. :chart_with_downwards_trend:  
+### Analyze the attack. :chart_with_downwards_trend: 
+ 
 The most important thing when you build a honeypots that after an attack you will have ability to analyze it. 
 Kippo_Graph will help you find the passwords were used, the IP address of the attacker and the common commands used. 
 
@@ -168,6 +169,7 @@ to see attcker's tools.
 ![log](Pic/log.png)
 
 ### Conclusion
+
 We have experimented a project about buliding a honeypot to capture a brute-force attack.   
 
 But honeypots require highlevel skills of the security team to build it efficiently and they can not detect security problems in legitimate systems. Please remmeber using it wisely!!! 
