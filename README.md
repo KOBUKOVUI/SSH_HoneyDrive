@@ -137,7 +137,7 @@ Now we're having the root privilege, so we can do whatever we want. I will use a
 ```
 cat /etc/passwd 
 ```
-![cat](Pic/cat etc.png)  
+![cat](Pic/catetc.png)
 4. Get out as a ghost  
 This part decides you're an elite hacker or just a noob, but in order to make the demostration more clearly, we will cross this part.
 
