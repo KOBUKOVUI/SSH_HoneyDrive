@@ -48,6 +48,8 @@ Go to your browser in your real machine and enter the link below:
 HoneyDriveIPaddress/kippo-graph/
 #In this case the Ip is 192.18.16.129
 ```
+Kippo_Graph looks like this. 
+![Kippo Graph](Pic/Kippo_graph.png)
 
 
 
