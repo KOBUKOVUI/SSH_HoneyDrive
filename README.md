@@ -64,7 +64,7 @@ The desktop of Kali looks like this.
 Using commnad: `ifconfig` or `ip add` 
 ![KaliIP](Pic/KaliIp.png)
 
-## Launch the attack (Try to imagine you are a hacker :V). 
+## Launch the attack (Try to imagine you are a hacker :V). :boxing_glove:
 **Step 1**: Recognise the victim  
 First of all, hacker have to use some tools to find vulnerable victims, this 
 is the first step and the most crucial in the **__Cyber Kill Chain__** (we will talk about this one day :V).  
@@ -141,8 +141,37 @@ cat /etc/passwd
 4. Get out as a ghost  
 This part decides you're an elite hacker or just a noob, but in order to make the demostration more clearly, we will cross this part.
 
-### Analyze the attack. 
+### Analyze the attack. :chart_with_downwards_trend:  
+The most important thing when you build a honeypots that after an attack you will have ability to analyze it. 
+Kippo_Graph will help you find the passwords were used, the IP address of the attacker and the common commands used. 
 
+**Step 1** Get back to the Kippo_graph website  
+Choose Kippo graph. 
+
+**Step 2** Analyze graphs 
+1. We can check passwords were used and their frequencies -> to find out the dictionary they took. 
+![passwordsUsed](Pic/passwordUsed.png)  
+
+2. Check the usernames were used -> to check which account was targeted by the attackers.
+![usernameUsed](Pic/usernameUsed.png)
+
+3. Find the IP address of the attackers -> to have more informations about them. 
+
+![IpUsed](Pic/IpUsed.png)
+
+4. See which type of SSH connection methods were used ->
+to see attcker's tools. 
+*** You can see the Medusa method was appeared here 
+
+![MethodsUsed](Pic/MethodUsed.png)
+
+5. Last but not least, we can monitor every commands the hackers used -> to see what are their purposes. 
+![log](Pic/log.png)
+
+### Conclusion
+We have experimented a project about buliding a honeypot to capture a brute-force attack.   
+
+But honeypots require highlevel skills of the security team to build it efficiently. And they can not detect security problems in legitimate systems. 
 
 
 
