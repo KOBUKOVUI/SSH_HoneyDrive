@@ -12,13 +12,12 @@ be used.
 
 ## What are honeypots? :honey_pot:
 Honeypots are designed as real parts of a network infrastructure such as 
-a server or an end-host. But honeypots are modified to look like atractive targets for luring the hackers. Honeypots are used by the security teams to monitors the system's security resposes and redirect 
+a server or an end-host. But honeypots are modified to look like atractive targets for luring the hackers. Honeypots are used by the security teams to monitors the system's security responses and redirect 
 the attacker away from the real assets. 
 
 ## How do Honeypots work? :open_file_folder:
-Honeypots are often designed to have vulnerabilites which often are decoy data. When the attackers break in
-to the honeypots, the security team can observe how the hackers launched the attacks and take note their 
-technique or signature. All these informations can be used to strengthen the security of real systems.  
+Honeypots are often designed to have vulnerabilites which often are decoy data. When the attackers break into the honeypots, the security team can observe how the hackers launched the attacks and take note their 
+techniques or signatures. All these informations can be used to strengthen the security of real systems.  
 
 ## Installation :gear:
 
@@ -145,10 +144,10 @@ This part decides you're an elite hacker or just a noob, but in order to make th
 The most important thing when you build a honeypots that after an attack you will have ability to analyze it. 
 Kippo_Graph will help you find the passwords were used, the IP address of the attacker and the common commands used. 
 
-**Step 1** Get back to the Kippo_graph website  
+**Step 1**: Get back to the __Kippo_graph__ website  
 Choose Kippo graph. 
 
-**Step 2** Analyze graphs 
+**Step 2**: Analyze graphs 
 1. We can check passwords were used and their frequencies -> to find out the dictionary they took. 
 ![passwordsUsed](Pic/passwordUsed.png)  
 
@@ -171,7 +170,9 @@ to see attcker's tools.
 ### Conclusion
 We have experimented a project about buliding a honeypot to capture a brute-force attack.   
 
-But honeypots require highlevel skills of the security team to build it efficiently. And they can not detect security problems in legitimate systems. 
+But honeypots require highlevel skills of the security team to build it efficiently and they can not detect security problems in legitimate systems. Please remmeber using it wisely!!! 
+
+
 
 
 
