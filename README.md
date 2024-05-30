@@ -22,7 +22,7 @@ technique or signature. All these informations can be used to strengthen the sec
 
 ## Installation :gear:
 
-- 1, Install HoneyDrive: 
+### 1, Install HoneyDrive: 
 **Step 1**: Download the OVA file from [bruteforce.gr](https://sourceforge.net/projects/honeydrive/) 
 
 **Step 2**: Use virtual machine application such as VMware or Virtual Box to create a new machine.
