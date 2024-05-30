@@ -25,7 +25,7 @@ technique or signature. All these informations can be used to strengthen the sec
 ### 1, Install HoneyDrive.
 **Step 1**: Download the OVA file from [bruteforce.gr](https://sourceforge.net/projects/honeydrive/) 
 
-**Step 2**: Use virtual machine application such as VMware or Virtual Box to create a new machine.
+**Step 2**: Use a virtual machine application such as VMware or Virtual Box to create a new machine.
 
 **Step 3**: Turn on the HoneyDrive.
 ![HoneyDriveDesktop](Pic/HoneyDriveDesktop.png)
@@ -67,10 +67,10 @@ Using commnad: `ifconfig` or `ip add`
 ## Launch the attack (Try to imagine you are a hacker :V). 
 **Step 1**: Recognise the victim  
 First of all, hacker have to use some tools to find vulnerable victims, this 
-is the first step and the most crcial in the **__Cyber Kill Chain__** (we will talk about this one day :V).  
+is the first step and the most crucial in the **__Cyber Kill Chain__** (we will talk about this one day :V).  
 In this scenario, we will use `Nmap` to find out the victim which is our HoneyDrive machine.  
 
-1. We have to scan all the IP address that are working in our network, so use the nmap with this command. 
+1. We have to scan all the IP addresses that are working in our network, so use the nmap with this command. 
 ``` 
 sudo nmap -sP "Ipaddress range" 
 #In this case my Ip range is: 192.168.16.0/24
@@ -94,15 +94,15 @@ of that we want to open this port to atrract the attackers, so the attacker is t
 **Step 2**: Weaponize.  
 >We will use dictionary-attack method, so it means we must have a dictionary, right?
 >
-Fortunately, you can find a thousand of dictionary like this in the Internet just by googling insted of speending hours to write
-your own dictionary. In this scenario we will use rockyou dictionary which is a basic dictionary for a simple pentesting. You can get it [here](https://github.com/praetorian-inc/Hob0Rules/tree/master).  
+Fortunately, you can find a thousand of dictionary like this in the Internet just by googling instead of speending hours to write
+your own dictionary. In this scenario, we will use rockyou dictionary which is a basic dictionary for a simple pentesting. You can get it [here](https://github.com/praetorian-inc/Hob0Rules/tree/master).  
 Ortherwise, you can try my username and password dictionary which is in the [rs](rs) folder and see how long does it take to break your account. :)))
 
 ![rockyou](Pic/rockyou.png)
 
 **Step 3**: **__ATTACK!!!__**  
-Let move to the fun part, **Hacking**. As i said before we will use `medusa` to launch the attack. However, 
-there is a more advance way to do this, it's using `Hydra`. I leave it to you to find it yourself :wink:    
+Let move to the fun part, **Hacking**. As i said before, we will use `medusa` to launch the attack. However, 
+there is a more advance way to do this, it's using `Hydra`. Go and find it yourself :wink:    
 1. Get back to your terminal  
 Use this command: 
 ```
@@ -115,10 +115,10 @@ medusa -h "IpAddress" -u/U "username/UserNameFile" -p/P "password/passwordFile -
 #Last one it number of thread you want to use, more thread means more quickly. 
 #My command must be like this: medusa -h 192.168.16.129 -u root -P rockyou.txt -M ssh -t 4
 ```
-***Let the magic do it own work and patient... 
+*** Let the magic do it own work and patient... 
  ![bruteForce](Pic/bruteForce.png)  
 *** **Eureka!!!** so the password is '123456'. But in real life, if the password is so much simple like this, attackers
-will noitice and aware they're being lured by a honeypot. So remmember to use medium strength password strength and must be in the middle-last of the dictionary. 
+will noitice and aware they're being lured by a honeypot. So remmember to use medium strength password and it must be in the middle or last of the dictionary. 
 
 2. Sneak in the system.  
 We will use ssh connection here, so use this command.   
@@ -133,11 +133,12 @@ Enter the password we have just found before.
 *** Now we are in.
 
 3. Do some suspicious actions  
-Now we're having the root privilege, so we can do whatever we want. I will use some a common comand here just to show you how this works. 
+Now we're having the root privilege, so we can do whatever we want. I will use a common comand here just to show you how this works. 
 ```
 cat /etc/passwd 
 ```
-4. Get out as a ghost 
+![cat](Pic/cat etc.png)  
+4. Get out as a ghost  
 This part decides you're an elite hacker or just a noob, but in order to make the demostration more clearly, we will cross this part.
 
 ### Analyze the attack. 
