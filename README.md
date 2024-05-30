@@ -31,12 +31,23 @@ technique or signature. All these informations can be used to strengthen the sec
 ![HoneyDriveDesktop](Pic/HoneyDriveDesktop.png)
 
 **Step 4**: Start __kippo_ssh__. 
-Open termianl end the command below: 
+Open terminal and enter the command below: 
 ```
 /honeydrive/kippo/start.sh
 ```
 Wait for a moment and the kippo will be activated. :hourglass:
 ![KippoStart](Pic/StartKippo.png) 
+
+**Step 5**: Check the IP address. 
+Using commnad: `ifconfig` or `ip add` 
+![HoneyDriveIP](/home/clayzzz/Desktop/SSH_HoneyDrive/Pic/HoneyDriveIP.png)
+
+**Step 6**: Go to the __Kippo_Graph__ website.
+Go to your browser in your real machine and enter the link below: 
+```
+HoneyDriveIPaddress/kippo-graph/
+// In this case the Ip is 192.18.16.129
+```
 
 
 
